@@ -1,0 +1,18 @@
+{
+  "name": "spa-captcha",
+  "version": "1.0.0",
+  "description": "go-captcha 站点登录 + go-captcha 自动求解 (slide/rotate)，纯 JS 无原生依赖",
+  "main": "spa-login.js",
+  "scripts": {
+    "test": "node regression.js && node test-e2e.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0",
+    "socks-proxy-agent": "^10.1.0"
+  }
+}
